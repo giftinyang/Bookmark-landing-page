@@ -9,3 +9,82 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
   }
+
+  p {
+    color: hsl(229, 8%, 60%);
+  }
+
+  /* remove border that appears when clicking links */
+  a:active, a:focus {
+    outline: 0;
+    /* -moz-outline-style: none; */
+  }
+
+  .wrapper {
+    margin: 0 auto 0 auto;
+    width: 1200px;
+  }
+
+  .valign {
+    margin: 70px 0 0 0;
+  }
+
+  .info{
+    text-align: center;
+  }
+
+  .info > h1,
+  .info > p {
+    width: 600px;
+    margin: 0 auto 40px auto;
+  }
+
+   /* remove border that appears when clicking links */
+   a:active, a:focus {
+    outline: 0;
+    /* -moz-outline-style: none; */
+  }
+
+  .wrapper {
+    margin: 0 auto 0 auto;
+    width: 1200px;
+  }
+
+  .valign {
+    margin: 70px 0 0 0;
+  }
+
+  .info{
+    text-align: center;
+  }
+
+  .info > h1,
+  .info > p {
+    width: 600px;
+    margin: 0 auto 40px auto;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 14px;
+    background: hsl(231, 69%, 60%);
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid hsl(231, 69%, 60%);
+    border-radius: 5px;
+  }
+
+  a:hover {
+    color: hsl(231, 69%, 60%);
+    background: #fff;
+  }
+
+  .logo {
+    position: relative;
+    width: 148px;
+    height: auto;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+  }
