@@ -81,3 +81,30 @@ for ( let i = 0; i < questions.length; i++ ) {
     }
   })
 }
+
+// Burger menu toggle
+
+// Get burger menu button
+var burgerButton = document.getElementById("burger");
+// Get burger menu
+var burgerMenu = document.getElementsByClassName("burgermenu")[0];
+// Get header logo
+var headerLogo = document.getElementById("headerlogo");
+// Get body tag
+var body = document.getElementsByTagName('body')[0];
+
+burgerButton.addEventListener("click", function() {
+  console.log('burger menu icon clicked');
+  if ( burgerMenu.className == "burgermenu hide" ) {
+    burgerMenu.className = "burgermenu show"
+    headerLogo.src = "images/logo-bookmark-burger.svg";
+    burgerButton.innerHTML = '<img src="images/icon-hamburger-close.svg" height="15px" width="auto">';
+    body.className = "noScroll";
+  } else {
+    burgerMenu.className = "burgermenu hide"
+    headerLogo.src = "images/logo-bookmark.svg";
+    burgerButton.innerHTML = '<img src="images/icon-hamburger.svg">';
+    body.className = "";
+    }
+  }
+);
