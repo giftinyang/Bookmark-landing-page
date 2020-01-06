@@ -13,13 +13,13 @@ burgerButton.addEventListener("click", function() {
   console.log('burger menu icon clicked');
   if ( burgerMenu.className == "burgermenu hide" ) {
     burgerMenu.className = "burgermenu show"
-    headerLogo.src = "images/logo-bookmark-burger.svg";
+    headerLogo.src = "assets/images/logo-bookmark-burger.svg";
     burgerButton.innerHTML = '<img src="images/icon-hamburger-close.svg" height="15px" width="auto">';
     body.className = "noScroll";
   } else {
     burgerMenu.className = "burgermenu hide"
-    headerLogo.src = "images/logo-bookmark.svg";
-    burgerButton.innerHTML = '<img src="images/icon-hamburger.svg">';
+    headerLogo.src = "assets/images/logo-bookmark.svg";
+    burgerButton.innerHTML = '<img src="assets/images/icon-hamburger.svg">';
     body.className = "";
     }
   }
@@ -97,13 +97,13 @@ burgerButton.addEventListener("click", function() {
   console.log('burger menu icon clicked');
   if ( burgerMenu.className == "burgermenu hide" ) {
     burgerMenu.className = "burgermenu show"
-    headerLogo.src = "images/logo-bookmark-burger.svg";
-    burgerButton.innerHTML = '<img src="images/icon-hamburger-close.svg" height="15px" width="auto">';
+    headerLogo.src = "assets/images/logo-bookmark-burger.svg";
+    burgerButton.innerHTML = '<img src="assets/images/icon-hamburger-close.svg" height="15px" width="auto">';
     body.className = "noScroll";
   } else {
     burgerMenu.className = "burgermenu hide"
-    headerLogo.src = "images/logo-bookmark.svg";
-    burgerButton.innerHTML = '<img src="images/icon-hamburger.svg">';
+    headerLogo.src = "assets/images/logo-bookmark.svg";
+    burgerButton.innerHTML = '<img src="assets/images/icon-hamburger.svg">';
     body.className = "";
     }
   }
