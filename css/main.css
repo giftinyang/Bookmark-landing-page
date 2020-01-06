@@ -333,7 +333,7 @@ body {
     width: 100%;
     text-align: left;
     background: #fff;
-    background-image: url("assets/images/icon-arrow.svg");
+    background-image: url("./images/icon-arrow.svg");
     background-repeat: no-repeat;
     background-position: right center;
     color: black;
@@ -349,7 +349,7 @@ body {
 
   .question:hover {
     color: hsl(0, 94%, 66%);
-    background-image: url("assets/images/icon-arrow.svg");
+    background-image: url("./images/icon-arrow.svg");
     background-repeat: no-repeat;
     background-position: right center;
   }
@@ -359,7 +359,7 @@ body {
     border-width: 1px 0 1px 0;
     border-color: #ccc;
     border-radius: 0;
-    background-image: url("assets/images/icon-close.svg");
+    background-image: url("./images/icon-close.svg");
     background-size: 16px auto;
     background-repeat: no-repeat;
     background-position: right center;
@@ -763,4 +763,13 @@ body {
     display: block;
   }
 
+}
+
+.tabwrapper {
+  margin-top: 50px;
+}
+
+.info{
+
+  margin-top: 50px;
 }
